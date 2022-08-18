@@ -70,17 +70,23 @@ const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
+              <a href="https://github.com/metalhead5209"
+              target='_blank'
+              >
                 <img src={GitIcon} alt='github' 
                 className='soc-icon'
                 />
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/aaron-rodi/"
+              target='_blank'
+              >
                 <img src={LinkIcon} alt='linkedin' 
                 className='soc-icon'
                 />
               </a>
-              <a href="#">
+              <a href="https://twitter.com/a_wodi_"
+              target='_blank'
+              >
                 <img src={TwitIcon} alt='twitter' 
                 className='soc-icon'
                 />
