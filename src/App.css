@@ -54,6 +54,8 @@ h6 {
   width: 6.5em;
   position: relative;
   left: 1px;
+  filter: drop-shadow(2px 4px 8px rgb(137, 137, 137))
+
 }
 
 .soc-icon {
@@ -78,6 +80,8 @@ a:hover {
 img {
   width: 85%;
   height: auto;
+  filter: drop-shadow(2px 4px 8px rgb(137, 137, 137))
+
 }
 
 button {

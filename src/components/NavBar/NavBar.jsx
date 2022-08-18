@@ -67,6 +67,16 @@ const NavBar = () => {
             >
               Projects
             </Nav.Link>
+
+            <Nav.Link
+              href="https://drive.google.com/file/d/1XYzacTH8lmxf7U-6KkAZMaJXCe6FUKid/view?usp=sharing"
+              className=
+                'navbar-link'
+              onClick={() => updateActiveLink("resume")}
+              target='_blank'
+            >
+              Resume
+            </Nav.Link>
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
