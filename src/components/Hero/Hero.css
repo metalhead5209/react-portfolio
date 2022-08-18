@@ -1,6 +1,6 @@
 .hero {
   margin-top: 0;
-  padding: 195px 0 100px 0;
+  padding: 210px 0 100px 0;
   background-image: url("./assets/img/hero-bg.png");
   background-position: top center;
   background-size: cover;
@@ -55,6 +55,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .hero {
+    padding: 225px 0 100px 0;
+  }
+
   .hero h1 {
     font-size: 2em;
   }

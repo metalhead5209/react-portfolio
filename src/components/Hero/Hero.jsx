@@ -11,7 +11,7 @@ const Hero = () => {
     <section className="hero" id="home">
       <Container>
         <Row>
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={6} xl={6}>
             <span className="greeting">Welcome to my Personal Portfolio!</span>
             <h1>
               {`Hi, My name is Aaron Rodi,`} <br />
@@ -34,7 +34,7 @@ const Hero = () => {
               how to succeed in this industry.
             </p>
           </Col>
-          <Col xs={12} md={6} xl={5}>
+          <Col xs={12} md={6} xl={6}>
             <img src={Me} className='profile-img' alt='profile img' />
           </Col>
         </Row>
