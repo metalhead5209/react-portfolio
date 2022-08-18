@@ -1,98 +1,107 @@
 /* Custom Fonts */
 @font-face {
-    font-family: Kanit;
-    src: url('./assets/Kanit-Bold.ttf');
-    font-weight: 600;
+  font-family: Kanit;
+  src: url("./assets/Kanit-Bold.ttf");
+  font-weight: 600;
 }
 
 @font-face {
-    font-family: Kanit;
-    src: url('./assets/Kanit-Bold.ttf');
-    font-weight: 500;
+  font-family: Kanit;
+  src: url("./assets/Kanit-Bold.ttf");
+  font-weight: 500;
 }
 
 @font-face {
-    font-family: Kanit;
-    src: url('./assets/Kanit-Bold.ttf');
-    font-weight: 700;
+  font-family: Kanit;
+  src: url("./assets/Kanit-Bold.ttf");
+  font-weight: 700;
 }
 
 /* Default CSS */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 70px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
 }
 
 body {
-    font-weight: 400;
-    overflow-x: hidden;
-    position: relative;
-    background-color: rgb(250, 250, 250) !important;
-    color: #000 !important;
-    font-family: 'Kanit', sans-serif !important;
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: rgb(250, 250, 250) !important;
+  color: #000 !important;
+  font-family: "Kanit", sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-    padding: 0;
-    line-height: normal;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
 }
 
 .logo-name {
-    width: 6.5em;
-    position: relative;
-    left: 1px;
+  width: 6.5em;
+  position: relative;
+  left: 1px;
 }
 
 .soc-icon {
-    width: 2em;
+  width: 2em;
 }
 
-p, a, li, button, ul {
-    margin: 0;
-    padding: 0;
-    line-height: normal;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: none;
-  }
-  
-  img {
-    width: 85%;
-    height: auto;
-  }
-  
-  button {
-    border: 0;
-    background-color: transparent;
-  }
-  
-  input:focus, textarea:focus, select:focus {
-    outline: none;
-  }
-  
-  @media (min-width:1700px) {
-      main .container {
-          max-width: 100%;
-          padding: 0 150px;
-      }
-  }
-  
-  p.success {
-      color: green;
-  }
-  
-  p.danger {
-      color: red;
-  }
+p,
+a,
+li,
+button,
+ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
 
-  
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 85%;
+  height: auto;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+@media (min-width: 1700px) {
+  main .container {
+    max-width: 100%;
+    padding: 0 150px;
+  }
+}
+
+p.success {
+  color: green;
+}
+
+p.danger {
+  color: red;
+}
