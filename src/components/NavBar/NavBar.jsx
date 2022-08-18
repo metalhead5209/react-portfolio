@@ -2,10 +2,11 @@ import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Logo from "../assets/logo.png";
-import GitIcon from "../assets/github.svg";
-import LinkIcon from "../assets/linkedin.svg";
-import TwitIcon from "../assets/twitter.svg";
+import Logo from "../../assets/logo.png";
+import GitIcon from "../../assets/github.svg";
+import LinkIcon from "../../assets/linkedin.svg";
+import TwitIcon from "../../assets/twitter.svg";
+import './NavBar.css'
 
 const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
