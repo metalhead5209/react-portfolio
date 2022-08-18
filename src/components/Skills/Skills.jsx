@@ -4,6 +4,22 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./Skills.css";
 import HTML from '../../assets/html5.svg';
+import CSS from '../../assets/css3.svg';
+import JS from '../../assets/javascript.svg';
+import TS from '../../assets/typescript.svg';
+import ReactIcon from '../../assets/react.svg';
+import BootstrapIcon from '../../assets/bootstrap.svg';
+import NextIcon from '../../assets/nextjs.svg';
+import ReduxIcon from '../../assets/redux.svg';
+import NodeIcon from '../../assets/nodejs.svg';
+import ExpressIcon from '../../assets/express.svg';
+import MongoIcon from '../../assets/mongodb.svg';
+import MysqlIcon from '../../assets/mysql.svg';
+import PhotoShopIcon from '../../assets/photoshop.svg';
+import FigmaIcon from '../../assets/figma.svg';
+import IllustratorIcon from '../../assets/illustrator.svg';
+import HerokuIcon from '../../assets/heroku.svg';
+import NetlifyIcon from '../../assets/netlify.svg';
 
 const Skills = () => {
   return (
@@ -14,7 +30,7 @@ const Skills = () => {
           <h2>Frontend</h2>
           <div className="img-container">
             <div className="skill-img-div">
-                <h4>HTML</h4>
+                <h3>HTML5</h3>
                 <img 
                 src={HTML}
                 alt='html' 
@@ -22,74 +38,74 @@ const Skills = () => {
                 />
             </div>
             <div className="skill-img-div">
-                <h4>HTML</h4>
+                <h3>CSS3</h3>
                 <img 
-                src={HTML}
-                alt='html' 
+                src={CSS}
+                alt='css' 
                 className='skill-img'
                 />
             </div>
             <div className="skill-img-div">
-                <h4>HTML</h4>
+                <h3>JavaScript</h3>
                 <img 
-                src={HTML}
-                alt='html' 
+                src={JS}
+                alt='js' 
                 className='skill-img'
                 />
             </div>
             <div className="skill-img-div">
-                <h4>HTML</h4>
+                <h3>TypeScript</h3>
                 <img 
-                src={HTML}
-                alt='html' 
+                src={TS}
+                alt='typescript' 
                 className='skill-img'
                 />
             </div>
             <div className="skill-img-div">
-                <h4>HTML</h4>
+                <h3>React</h3>
                 <img 
-                src={HTML}
-                alt='html' 
+                src={ReactIcon}
+                alt='react' 
                 className='skill-img'
                 />
             </div>
             <div className="skill-img-div">
-                <h4>HTML</h4>
+                <h3>Bootstrap</h3>
                 <img 
-                src={HTML}
-                alt='html' 
+                src={BootstrapIcon}
+                alt='bootstrap' 
                 className='skill-img'
                 />
             </div>
             <div className="skill-img-div">
-                <h4>HTML</h4>
+                <h3>NextJs</h3>
                 <img 
-                src={HTML}
-                alt='html' 
+                src={NextIcon}
+                alt='nextjs' 
                 className='skill-img'
                 />
             </div>
             <div className="skill-img-div">
-                <h4>HTML</h4>
+                <h3>Photoshop</h3>
                 <img 
-                src={HTML}
-                alt='html' 
+                src={PhotoShopIcon}
+                alt='photoshop' 
                 className='skill-img'
                 />
             </div>
             <div className="skill-img-div">
-                <h4>HTML</h4>
+                <h3>Illustrator</h3>
                 <img 
-                src={HTML}
-                alt='html' 
+                src={IllustratorIcon}
+                alt='illustrator' 
                 className='skill-img'
                 />
             </div>
             <div className="skill-img-div">
-                <h4>HTML</h4>
+                <h3>Figma</h3>
                 <img 
-                src={HTML}
-                alt='html' 
+                src={FigmaIcon}
+                alt='figma' 
                 className='skill-img'
                 />
             </div>
@@ -100,50 +116,50 @@ const Skills = () => {
           <h2>Backend</h2>
           <div className="img-container">
           <div className="skill-img-div">
-                <h4>HTML</h4>
+                <h3>NodeJS</h3>
                 <img 
-                src={HTML}
-                alt='html' 
+                src={NodeIcon}
+                alt='nodejs' 
                 className='skill-img'
                 />
          </div>
           <div className="skill-img-div">
-                <h4>HTML</h4>
+                <h3>ExpressJs</h3>
                 <img 
-                src={HTML}
-                alt='html' 
+                src={ExpressIcon}
+                alt='expressjs' 
                 className='skill-img'
                 />
          </div>
           <div className="skill-img-div">
-                <h4>HTML</h4>
+                <h3>MongoDb</h3>
                 <img 
-                src={HTML}
-                alt='html' 
+                src={MongoIcon}
+                alt='mongodb' 
                 className='skill-img'
                 />
          </div>
           <div className="skill-img-div">
-                <h4>HTML</h4>
+                <h3>MySql</h3>
                 <img 
-                src={HTML}
-                alt='html' 
+                src={MysqlIcon}
+                alt='mysql' 
                 className='skill-img'
                 />
          </div>
           <div className="skill-img-div">
-                <h4>HTML</h4>
+                <h3>Heroku</h3>
                 <img 
-                src={HTML}
-                alt='html' 
+                src={HerokuIcon}
+                alt='heroku' 
                 className='skill-img'
                 />
          </div>
           <div className="skill-img-div">
-                <h4>HTML</h4>
+                <h3>Netlify</h3>
                 <img 
-                src={HTML}
-                alt='html' 
+                src={NetlifyIcon}
+                alt='netlify' 
                 className='skill-img'
                 />
          </div>
