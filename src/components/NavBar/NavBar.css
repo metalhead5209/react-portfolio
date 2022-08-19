@@ -140,3 +140,10 @@ nav.navbar .navbar-toggler-icon:after {
     margin: auto 10px;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .navbar-text button {
+    padding: 5px;
+    font-size: 12px;
+  }
+}

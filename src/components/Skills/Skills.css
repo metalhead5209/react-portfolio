@@ -8,12 +8,10 @@
 
 .img-container {
     height: 800px;
-    /* background-color: rgba(0,0,0,0.5); */
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    /* overflow: auto; */
 }
 
 .skills h3 {

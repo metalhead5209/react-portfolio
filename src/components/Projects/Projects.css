@@ -1,0 +1,44 @@
+.projects-container {
+    height: 500px;
+    /* background-color: rgba(0,0,0,0.5); */
+}
+
+
+.project-card {
+    text-align: center;
+    filter: drop-shadow(2px 4px 8px rgb(137, 137, 137));
+    
+}
+
+.project-card button {
+    margin: auto 1em;
+}
+
+.projects-container h3 {
+    text-align: center;
+}
+
+.project-title {
+    color: white;
+}
+
+.proj-details {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px;
+}
+
+.proj-btn {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    padding: .5em 1.2em;
+}
+
+.proj-btn:hover {
+    background-color: black;
+    color: white;
+}
