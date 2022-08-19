@@ -6,7 +6,8 @@
 
 .project-card {
     text-align: center;
-    filter: drop-shadow(2px 4px 8px rgb(137, 137, 137));
+    box-shadow: (3px 5px 9px rgb(110, 110, 110));
+    margin-bottom: 2em;
     
 }
 

@@ -12,15 +12,20 @@ const Projects = (props) => {
   return (
     <Container className="projects-container" id="projects">
       <Row>
-        
         <Col xs={12} md={12} xl={12}>
-         <ProjectCard 
-         imgSrc={data[0].imgSrc}
-         title={data[0].title}
-         techStack={data[0].techStack}
-         demoURL={data[0].demoURL}
-         codeURL={data[0].codeURL}
-         />
+         {
+          data.map((proj) => (
+            <ProjectCard 
+            key={proj.key}
+            imgSrc={proj.imgSrc}
+            title={proj.title}
+            techStack={proj.techStack}
+            demoURL={proj.demoURL}
+            codeURL={proj.codeURL}
+            />
+          ))
+         }
+        
         </Col>
       </Row>
     </Container>
@@ -28,3 +33,5 @@ const Projects = (props) => {
 };
 
 export default Projects;
+
+
