@@ -23,6 +23,7 @@ const Projects = (props) => {
             techStack={proj.techStack}
             demoURL={proj.demoURL}
             codeURL={proj.codeURL}
+            info={proj.info}
             />
           ))
          }

@@ -3,9 +3,13 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import FestiShare from "../../assets/festishare.png";
+import InfoModal from "../InfoModal/InfoModal";
 
 
 const ProjectCard = (props) => {
+
+    const [ modalShow, setModalShow] = useState(false);
+
   return (
     <Card className="project-card">
       <Card.Img variant="top" src={props.imgSrc} />
@@ -28,7 +32,18 @@ const ProjectCard = (props) => {
           <button className="proj-btn">Code</button>
         </a>
 
-        <button className="proj-btn">Info</button>
+        <button className='proj-btn' variant="primary" onClick={() => setModalShow(true)}>
+          info
+        </button>
+  
+        <InfoModal 
+          show={modalShow}
+          onHide={() => setModalShow(false)}
+          title={props.title}
+          info={props.info}
+        />
+
+
       </Card.Body>
     </Card>
   );
