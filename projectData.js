@@ -2,7 +2,7 @@
 const PROJECT_DATA = [
     {
         key: 1,
-        imgSrc: '../../src/assets/festishare.png',
+        imgSrc: './src/assets/festishare.png',
         title: 'FestiShare',
         techStack: 'Node.Js | Express | MongoDB | Mongoose | JavaScript | EJS | CSS | Bootstrap Morgan | Multer | Joi | MapBox | PassPort | DotENV',
         demoURL: 'https://sleepy-ocean-40801.herokuapp.com/',
@@ -27,15 +27,7 @@ const PROJECT_DATA = [
         codeURL: 'https://github.com/metalhead5209/book_lib_mongo'
 
     },
-    {
-        key: 4,
-        imgSrc: './src/assets/sw-pic-blog.png',
-        title: 'Star Wars Photo Blog',
-        techStack: 'HTML | CSS | JAVASCRIPT',
-        demoURL: 'http://cmin.dcc.edu/users/aaronrodi/final%20project/home.html',
-        codeURL: 'https://github.com/metalhead5209/Star_Wars_Picture_Blog'
 
-    },
     {
         key: 5,
         imgSrc: './src/assets/port-proj.png',
@@ -44,7 +36,17 @@ const PROJECT_DATA = [
         demoURL: '#',
         codeURL: 'https://github.com/metalhead5209/react-portfolio'
 
+    },
+    {
+        key: 4,
+        imgSrc: './src/assets/sw-pic-blog.png',
+        title: 'Star Wars Photo Blog',
+        techStack: 'HTML | CSS | JAVASCRIPT',
+        demoURL: 'http://cmin.dcc.edu/users/aaronrodi/final%20project/home.html',
+        codeURL: 'https://github.com/metalhead5209/Star_Wars_Picture_Blog'
+
     }
+    
 ]
 
 export default PROJECT_DATA
