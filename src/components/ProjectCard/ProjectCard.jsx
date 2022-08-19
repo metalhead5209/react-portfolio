@@ -15,13 +15,16 @@ const ProjectCard = (props) => {
           {props.techStack}
         </Card.Text>
 
-        <a href={props.demo}>
+        <a href={props.demoURL}
+        target='_blank'
+        >
           <button
-          onClick={() => console.log(props)}
           className="proj-btn">Demo</button>
         </a>
 
-        <a href={props.code}>
+        <a href={props.codeURL}
+        
+        target='_blank'>
           <button className="proj-btn">Code</button>
         </a>
 
