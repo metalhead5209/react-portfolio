@@ -95,12 +95,6 @@ select:focus {
   outline: none;
 }
 
-@media (min-width: 1700px) {
-  main .container {
-    max-width: 100%;
-    padding: 0 150px;
-  }
-}
 
 p.success {
   color: green;
@@ -109,3 +103,53 @@ p.success {
 p.danger {
   color: red;
 }
+
+.App {
+  height: 7000px;
+}
+
+@media (min-width: 1700px) {
+  main .container {
+    max-width: 100%;
+    padding: 0 150px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+    .App {
+      height: 6400px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .App {
+    height: 6000px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .App {
+    height: 7000px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+    .App {
+      height: 6900px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+  .App {
+    height: 6700px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .App {
+    height: 6600px;
+  }
+}
+

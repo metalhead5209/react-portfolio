@@ -90,12 +90,14 @@ const NavBar = () => {
                 <img src={TwitIcon} alt="twitter" className="soc-icon" />
               </a>
             </div>
+            {/* <a href="#contact"> */}
             <button
               className="contact-btn"
-              onClick={() => console.log("Connect")}
+              onClick={() => window.scrollTo(0, document.body.scrollHeight)}
             >
-              Contact Me
-            </button>
+              Contact Me</button>
+              {/* </a> */}
+            
           </span>
         </Navbar.Collapse>
       </Container>
