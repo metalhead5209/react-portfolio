@@ -4,7 +4,6 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import InfoModal from "../InfoModal/InfoModal";
 
-
 const ProjectCard = (props) => {
 
     const [ modalShow, setModalShow] = useState(false);
