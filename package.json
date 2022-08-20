@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "node server.jsx"
+    "start": "node index.js"
   },
   "dependencies": {
     "bootstrap": "^5.2.0",
