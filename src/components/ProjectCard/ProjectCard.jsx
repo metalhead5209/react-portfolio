@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import FestiShare from "../../assets/festishare.png";
 import InfoModal from "../InfoModal/InfoModal";
 
 
