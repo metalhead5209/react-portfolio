@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ContactImg from '../../assets/contact.png';
+import ContactImg from '../../../public/contact.png';
 import './Contact.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -63,12 +63,6 @@ const ContactForm = () => {
                       <textarea name='message' rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
                       <button type="submit"><span>Send</span></button>
                     </Col>
-                    {/* {
-                      status.message &&
-                      <Col>
-                        <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
-                      </Col>
-                    } */}
                   </Row>
                 </form>
                 </section>

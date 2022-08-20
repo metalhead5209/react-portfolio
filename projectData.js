@@ -1,10 +1,10 @@
-import Festi from './src/assets/festishare.png'
+// import Festi from './public/festishare.png'
 
 
 const PROJECT_DATA = [
   {
     key: 1,
-    imgSrc: "./src/assets/festishare.png",
+    imgSrc: "./public/festishare.png",
     title: "FestiShare",
     techStack:
       "Node.Js | Express | MongoDB | Mongoose | JavaScript | EJS | CSS | Bootstrap Morgan | Multer | Joi | MapBox | PassPort | DotENV",
@@ -15,7 +15,7 @@ const PROJECT_DATA = [
   },
   {
     key: 2,
-    imgSrc: "./src/assets/emp_mgmt.png",
+    imgSrc: "./public/emp_mgmt.png",
     title: "Employee Management System",
     techStack:
       "Node.JS | Express | MySQL | JavaScript | CSS MySQL WorkBench | HandleBars | Nodemon",
@@ -25,7 +25,7 @@ const PROJECT_DATA = [
   },
   {
     key: 3,
-    imgSrc: "./src/assets/book-lib.png",
+    imgSrc: "./public/book-lib.png",
     title: "Book Library",
     techStack:
       "Node.Js | Express | MongoDB | Mongoose | JavaScript | CSS Body-parser | Handlebars | DotENV",
@@ -36,7 +36,7 @@ const PROJECT_DATA = [
 
   {
     key: 5,
-    imgSrc: "./src/assets/port-proj.png",
+    imgSrc: "./public/port-proj.png",
     title: "React Portfolio",
     techStack: "React | JSX | JavaScript | Bootstrap | CSS",
     demoURL: "#",
@@ -45,7 +45,7 @@ const PROJECT_DATA = [
   },
   {
     key: 4,
-    imgSrc: "./src/assets/sw-pic-blog.png",
+    imgSrc: "./public/sw-pic-blog.png",
     title: "Star Wars Photo Blog",
     techStack: "HTML | CSS | JAVASCRIPT",
     demoURL: "http://cmin.dcc.edu/users/aaronrodi/final%20project/home.html",

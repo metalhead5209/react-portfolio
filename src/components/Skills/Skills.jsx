@@ -3,22 +3,22 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./Skills.css";
-import HTML from '../../assets/html5.svg';
-import CSS from '../../assets/css3.svg';
-import JS from '../../assets/javascript.svg';
-import TS from '../../assets/typescript.svg';
-import ReactIcon from '../../assets/react.svg';
-import BootstrapIcon from '../../assets/bootstrap.svg';
-import NextIcon from '../../assets/nextjs.svg';
-import NodeIcon from '../../assets/nodejs.svg';
-import ExpressIcon from '../../assets/express.svg';
-import MongoIcon from '../../assets/mongodb.svg';
-import MysqlIcon from '../../assets/mysql.svg';
-import PhotoShopIcon from '../../assets/photoshop.svg';
-import FigmaIcon from '../../assets/figma.svg';
-import IllustratorIcon from '../../assets/illustrator.svg';
-import HerokuIcon from '../../assets/heroku.svg';
-import NetlifyIcon from '../../assets/netlify.svg';
+import HTML from '../../../public/html5.svg';
+import CSS from '../../../public/css3.svg';
+import JS from '../../../public/javascript.svg';
+import TS from '../../../public/typescript.svg';
+import ReactIcon from '../../../public/react.svg';
+import BootstrapIcon from '../../../public/bootstrap.svg';
+import NextIcon from '../../../public/nextjs.svg';
+import NodeIcon from '../../../public/nodejs.svg';
+import ExpressIcon from '../../../public/express.svg';
+import MongoIcon from '../../../public/mongodb.svg';
+import MysqlIcon from '../../../public/mysql.svg';
+import PhotoShopIcon from '../../../public/photoshop.svg';
+import FigmaIcon from '../../../public/figma.svg';
+import IllustratorIcon from '../../../public/illustrator.svg';
+import HerokuIcon from '../../../public/heroku.svg';
+import NetlifyIcon from '../../../public/netlify.svg';
 
 const Skills = () => {
   return (
