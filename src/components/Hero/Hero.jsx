@@ -1,7 +1,8 @@
 
 import "./Hero.css";
 import { Container, Row, Col } from "react-bootstrap";
-import Me from '../../../public/assets/profile.jpg';
+import Me from '../../assets/profile.jpg';
+
 
 const Hero = () => {
 

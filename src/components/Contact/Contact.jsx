@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ContactImg from '../../../public/assets/contact.png';
+import ContactImg from '../../assets/contact.png';
 import './Contact.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -13,8 +13,6 @@ const ContactForm = () => {
     message: ''
   }
   const [formDetails, setFormDetails] = useState(formInitialDetails);
-  const [buttonText, setButtonText] = useState('Send');
-  const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
       setFormDetails({
@@ -23,25 +21,7 @@ const ContactForm = () => {
       })
   }
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setButtonText("Sending...");
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(formDetails),
-    });
-    setButtonText("Send");
-    let result = await response.json();
-    setFormDetails(formInitialDetails);
-    if (result.code == 200) {
-      setStatus({ succes: true, message: 'Message sent successfully'});
-    } else {
-      setStatus({ succes: false, message: 'Something went wrong, please try again later.'});
-    }
-  };
+
 
   return (
     <section className="contact">
@@ -64,7 +44,7 @@ const ContactForm = () => {
                 name="contact-form"
                 action="https://formspree.io/f/myyoqzon"
                 method="POST"
-                enctype="multipart/form-data"
+                encType="multipart/form-data"
                 >
                   <Row>
                     <Col size={12} sm={6} className="px-1">
@@ -81,14 +61,14 @@ const ContactForm = () => {
                     </Col>
                     <Col size={12} className="px-1">
                       <textarea name='message' rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
-                      <button type="submit"><span>{buttonText}</span></button>
+                      <button type="submit"><span>Send</span></button>
                     </Col>
-                    {
+                    {/* {
                       status.message &&
                       <Col>
                         <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
                       </Col>
-                    }
+                    } */}
                   </Row>
                 </form>
                 </section>
