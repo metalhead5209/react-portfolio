@@ -146,22 +146,7 @@ const Skills = () => {
                 className='skill-img'
                 />
          </div>
-          <div className="skill-img-div">
-                <h3>Heroku</h3>
-                <img 
-                src={HerokuIcon}
-                alt='heroku' 
-                className='skill-img'
-                />
-         </div>
-          <div className="skill-img-div">
-                <h3>Netlify</h3>
-                <img 
-                src={NetlifyIcon}
-                alt='netlify' 
-                className='skill-img'
-                />
-         </div>
+         
           </div>
         </Col>
       </Row>

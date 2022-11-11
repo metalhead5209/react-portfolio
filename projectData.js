@@ -1,10 +1,14 @@
-import Festi from './src/assets/festishare.png'
+import FestiShare from './src/assets/festishare.png';
+import EmpMgmt from './src/assets/emp_mgmt.png';
+import GitProfile from './src/assets/gitprofile.png';
+import Port from './src/assets/port-proj.png';
+import SW from './src/assets/sw-pic-blog.png';
 
 
 const PROJECT_DATA = [
   {
     key: 1,
-    imgSrc: "./src/assets/festishare.png",
+    imgSrc: FestiShare,
     title: "FestiShare",
     techStack:
       "Node.Js | Express | MongoDB | Mongoose | JavaScript | EJS | CSS | Bootstrap Morgan | Multer | Joi | MapBox | PassPort | DotENV",
@@ -15,7 +19,17 @@ const PROJECT_DATA = [
   },
   {
     key: 2,
-    imgSrc: "./src/assets/emp_mgmt.png",
+    imgSrc: GitProfile,
+    title: "GitStatss",
+    techStack:
+      "React | Styled Components | React Router | Custom Hooks | JavsScript | CSS | Axios | Fusion Charts | Auth0",
+    demoURL: "https://gitstatss.netlify.app/",
+    codeURL: "https://github.com/metalhead5209/react-github-profile",
+    info: "Github profiles allows users to search any github user and view certain statistics laid out in an easy to read chart. I used the github API to pull data and render it on the patge. Users have the ability to login using either their github account or by creating an account with an email (real or fake) and password. I used fusion charts to display the data I pulled in from the API and Auth0 to authorize users when logging in.  "
+  },
+  {
+    key: 2,
+    imgSrc: EmpMgmt,
     title: "Employee Management System",
     techStack:
       "Node.JS | Express | MySQL | JavaScript | CSS MySQL WorkBench | HandleBars | Nodemon",
@@ -23,20 +37,10 @@ const PROJECT_DATA = [
     codeURL: "https://github.com/metalhead5209/employee_directory_mysql",
     info: "For this project, I tasked myself with solving the problem of saving employee’sinformation to a database. This was my first brush with a relational databaseusing SQL (structured query language). Prior to this project, I only worked withDocument Oriented databases like MongoDB which takes in data in JSON formatinstead of related tables.This application allows a user to input employee information and save it into adatabase for future review. With a modern and intuitive interface, all the user hasto do is click the ‘Add Employee’ button, which is conveniently located on thenavigation bar, which will bring up a modal that includes a form. On the form,users have the ability to input the employee’s first and last name, email, phonenumber, and the department they hold in the company. Once the data has beeninserted, it then gets rendered onto the main page into a table which has eachpiece of data labeled in different table rows. The user also has the ability to editor delete any of the employees listed in the table."
   },
-  {
-    key: 3,
-    imgSrc: "./src/assets/book-lib.png",
-    title: "Book Library",
-    techStack:
-      "Node.Js | Express | MongoDB | Mongoose | JavaScript | CSS Body-parser | Handlebars | DotENV",
-    demoURL: "https://rodi-book-lib.herokuapp.com/",
-    codeURL: "https://github.com/metalhead5209/book_lib_mongo",
-    info: "This particular project was a redeploy of the Digital Book Library I developed while following The Odin Project’s full-stack JavaScript curriculum in the beginning ofthis year. I originally had it set up to save to the local storage. I was lookingthrough some of my older applications when I noticed something had broken. Thedata was no longer being saved to the local storage. Normally, I would have satthere and figured it out, but I chose a different route. At the time I was stilllearning MongoDb and Node.Js so I decided to add a back end along with adatabase. I still have the JavaScript file with the original code in it that saved tolocal storage. I will include that code as well.The function of this app is so that the user has the capability to save the title,author, pages, and whether they finished or not, into a collection stored in aMongoDB database using Mongoose as the framework. The book(s) a user hassaved will render onto the main page in convenient book card made with htmland styled with CSS. The book card displays the Title, Author, Number of pages,and whether the book has been finished or not. Directly under the title, there isan ‘Add Book’ button which opens a modal to enter the book information. Usersalso have the ability to either edit or delete any of the books they have previouslyadded. The layout is both desktop and mobile responsive."
-  },
 
   {
     key: 5,
-    imgSrc: "./src/assets/port-proj.png",
+    imgSrc: Port,
     title: "React Portfolio",
     techStack: "React | JSX | JavaScript | Bootstrap | CSS",
     demoURL: "#",
@@ -45,7 +49,7 @@ const PROJECT_DATA = [
   },
   {
     key: 4,
-    imgSrc: "./src/assets/sw-pic-blog.png",
+    imgSrc: SW,
     title: "Star Wars Photo Blog",
     techStack: "HTML | CSS | JAVASCRIPT",
     demoURL: "http://cmin.dcc.edu/users/aaronrodi/final%20project/home.html",
@@ -55,3 +59,7 @@ const PROJECT_DATA = [
 ];
 
 export default PROJECT_DATA;
+
+
+
+

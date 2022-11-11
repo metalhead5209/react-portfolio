@@ -56,4 +56,9 @@
   .hero h1 {
     font-size: 2em;
   }
+
+  .hero img {
+    position: relative;
+    right: -28px
+  }
 }
