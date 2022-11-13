@@ -25,7 +25,7 @@ const PROJECT_DATA = [
       "React | Styled Components | React Router | Custom Hooks | JavsScript | CSS | Axios | Fusion Charts | Auth0",
     demoURL: "https://gitstatss.netlify.app/",
     codeURL: "https://github.com/metalhead5209/react-github-profile",
-    info: "Github profiles allows users to search any github user and view certain statistics laid out in an easy to read chart. I used the github API to pull data and render it on the patge. Users have the ability to login using either their github account or by creating an account with an email (real or fake) and password. I used fusion charts to display the data I pulled in from the API and Auth0 to authorize users when logging in.  "
+    info: "GitStatss allows users to search any github user and view certain statistics laid out in an easy to read chart. I used the github API to pull data and render it on the patge. Users have the ability to login using either their github account or by creating an account with an email (real or fake) and password. I used fusion charts to display the data I pulled in from the API and Auth0 to authorize users when logging in.  "
   },
   {
     key: 2,
