@@ -69,7 +69,7 @@ const NavBar = () => {
             </Nav.Link>
 
             <Nav.Link
-              href="https://docs.google.com/document/d/1qQ0N1oZv24kptMMEfmL0pQJim_s_3oZs/edit?pli=1"
+              href="https://docs.google.com/document/d/1n4E6U8mljcZzvTkBBRLKms62-gc9ytebbYwIJkxzgrc/edit"
               className=
                 'navbar-link'
               onClick={() => updateActiveLink("resume")}
