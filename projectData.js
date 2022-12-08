@@ -9,7 +9,7 @@ const PROJECT_DATA = [
   {
     key: 1,
     imgSrc: FestiShare,
-    title: "FestiShare -- Currently needs redeploy due to Heroku dropping Free Tier. Check out GITHUB for code.",
+    title: "FestiShare",
     techStack:
       "Node.Js | Express | MongoDB | Mongoose | JavaScript | EJS | CSS | Bootstrap Morgan | Multer | Joi | MapBox | PassPort | DotENV",
     demoURL: "https://sleepy-ocean-40801.herokuapp.com/",
