@@ -14,9 +14,7 @@ const Projects = (props) => {
   return (
     <Container className="projects-container" id="projects">
       <Row>
-        <h2>Recent Projects <br />
-        <h4>Some Demo's are down due to losing Heroku free tier as of 12/1/22. Redeploy in progress. Until then, you can still check out the code on Github.</h4>
-         </h2>
+        <h2>Recent Projects</h2>
         
         <Col xs={12} md={12} xl={12}>
          {

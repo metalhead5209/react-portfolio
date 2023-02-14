@@ -33,7 +33,7 @@ const PROJECT_DATA = [
     title: "Employee Management System",
     techStack:
       "Node.JS | Express | MySQL | JavaScript | CSS MySQL WorkBench | HandleBars | Nodemon",
-    demoURL: "https://serene-wildwood-50884.herokuapp.com/",
+    demoURL: "https://employeedirectorymysql-production.up.railway.app/",
     codeURL: "https://github.com/metalhead5209/employee_directory_mysql",
     info: "For this project, I tasked myself with solving the problem of saving employee’sinformation to a database. This was my first brush with a relational databaseusing SQL (structured query language). Prior to this project, I only worked withDocument Oriented databases like MongoDB which takes in data in JSON formatinstead of related tables.This application allows a user to input employee information and save it into adatabase for future review. With a modern and intuitive interface, all the user hasto do is click the ‘Add Employee’ button, which is conveniently located on thenavigation bar, which will bring up a modal that includes a form. On the form,users have the ability to input the employee’s first and last name, email, phonenumber, and the department they hold in the company. Once the data has beeninserted, it then gets rendered onto the main page into a table which has eachpiece of data labeled in different table rows. The user also has the ability to editor delete any of the employees listed in the table."
   },
